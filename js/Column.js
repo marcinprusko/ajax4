@@ -1,24 +1,3 @@
-DELETE /column/{id}
-------------------------------
-Request:
-{id}: int - id kolumny, którą chcemy usunąć
-------------------------------
-Response:
-{
-   id: int
-}
-
-POST /card
-------------------------------
-Request:
-name: string - nazwa karteczki, którą tworzymy
-bootcamp_kanban_column_id: int - id kolumny, do której ma należeć stworzona karteczka
-------------------------------
-Response:
-{
-   id: int
-}
-
 function Column(id, name) {
     var self = this;
     

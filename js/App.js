@@ -1,23 +1,6 @@
-GET /board
------------------------------
-Response:
-{
-   id: int,
-   name: string,
-   columns: [{
-       id: int,
-       name: string,
-       cards: [{
-           id: int,
-           bootcamp_kanban_column_id: int,
-           name: string
-       }]
-   }]
-}
-
 var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
 var myHeaders = {
-  'X-Client-Id': <[X-Client-Id]>,
+  'X-Client-Id': <[X-Client-Id]>
   'X-Auth-Token': <[X-Auth-Token]>
 };
 

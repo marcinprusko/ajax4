@@ -1,15 +1,3 @@
-DELETE /card/{id}
-------------------------------
-Request:
-{id}: int - id karteczki, którą chcemy usunąć
-------------------------------
-Response:
-{
-   id: int
-}
-
-
-
 // KLASA KANBAN CARD
 function Card(id, name) {
     var self = this;
